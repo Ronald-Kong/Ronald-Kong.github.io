@@ -1,0 +1,29 @@
+
+.base{
+    width:100vw;
+    height:100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.profile{
+    height:100%;
+    width:25vw;
+    background-color: #fff;
+}
+
+.right_side{
+    height:100%;
+    width:75vw;
+    background-color: #fff;
+    position:relative;
+}
+.top_bar{
+    height:15vh;
+}
+.main_content{
+    height:79vh;
+}
+.footer{
+    height:6vh;
+}

@@ -1,0 +1,22 @@
+#content_container{
+    width:90%;
+    height:100%;
+    margin-left:5%;
+    margin-right:5%;
+    position:relative;
+}
+
+#project_outer_container{
+    width:100%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+#project_outer_container > span{
+    display:block;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom:2vw;
+}
