@@ -53,7 +53,7 @@ export default function Content() {
             <div id="project_outer_container">
                 <span>我的项目</span>
                 <div id="project_inner_container">
-                <Table columns={columns} dataSource={data} />
+                <Table columns={columns} dataSource={data} pagination={{position:["bottomCenter"]}}/>
                 </div>
             </div>
         </div>
