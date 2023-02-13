@@ -44,8 +44,16 @@ export default function Content() {
           url:"https://github.com/Ronald-Kong/Project_CMS",
           stars: 1,
           shares: 0,
-          tags: ['javascript', 'html'],
+          tags: ['javascript', 'koa2',],
         },
+        {
+          key: '2',
+          name: '个人博客搭建框架',
+          url:"https://github.com/Ronald-Kong/myblog",
+          stars: 0,
+          shares: 0,
+          tags: ['javascript', 'html'],
+        }
       ];
 
   return (
