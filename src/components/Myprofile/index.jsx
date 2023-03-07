@@ -12,7 +12,7 @@ export default function Myprofile() {
           </a>
         </div>
         </div>
-        <audio id="bgm_player" src='../bgm.mp3' autoPlay loop></audio>
+        <audio id="bgm_player" src='./bgm.mp3' autoPlay loop></audio>
     </div>
   )
 }
