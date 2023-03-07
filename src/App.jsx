@@ -1,9 +1,8 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import "./App.scss"
 import Myprofile from './components/Myprofile';
 import Navigator from './components/Navigator';
-import Content from './components/Content';
-import Footer from './components/Footer';
 export default function App() {
   return (
     <div>
@@ -16,10 +15,7 @@ export default function App() {
           <Navigator />
           </div>
           <div className='main_content'>
-          <Content />
-          </div>
-          <div className='footer'>
-          <Footer />
+          <Outlet/>
           </div>
         </div>
        </div>

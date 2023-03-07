@@ -1,0 +1,25 @@
+.start_container{
+    width:100vw;
+    height:100vh;
+    background-image: url("../../asset/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start_text_container{
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+}
+
+.start_text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    line-height: 50px;
+    user-select: none;
+    color:aqua;
+    margin-bottom:20px;
+}

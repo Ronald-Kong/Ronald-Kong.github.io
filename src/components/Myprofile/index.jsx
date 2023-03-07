@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./index.scss"
 export default function Myprofile() {
   return (
@@ -12,6 +12,7 @@ export default function Myprofile() {
           </a>
         </div>
         </div>
+        <audio id="bgm_player" src='../bgm.mp3' autoPlay loop></audio>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import { Space, Table, Tag } from 'antd';
+import { Table, Tag } from 'antd';
 import "./index.scss"
-export default function Content() {
+export default function ProgramContent() {
 
     const columns = [
         {
